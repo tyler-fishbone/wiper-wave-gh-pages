@@ -50,15 +50,25 @@ header nav ul li a {
 
 /* video and first cta */
 
+
+
 #vid-and-cta {
     background-color: rgba(255, 255, 255, 0.2);
-    padding: 80px;
 }
 
-#vid-and-cta #video iframe{
-    display: block;
-    margin: auto;
+.iframe-container {
+    padding-top: 56.25%;
+    position: relative;
     margin-bottom: 40px;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 #vid-and-cta #headline-and-cta {
@@ -93,7 +103,7 @@ header nav ul li a {
 #testamonial img {
     display: block;
     margin: auto;
-    width: 600px;
+    width: 100%;
 }
 
 #testamonial #testamonial-text {
